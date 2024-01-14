@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlatinumGymMAUI.AboutPage"
+             Title="">
+    <VerticalStackLayout Spacing="10" Margin="10">
+        <HorizontalStackLayout Spacing="10">
+            <Label FontSize="30" FontAttributes="Bold" Text="Our Trainers" VerticalOptions="End" />
+        </HorizontalStackLayout>
+        <Label FontSize="22" FontAttributes="Bold" Text="Rosca David" VerticalOptions="End" />
+        <Label Text="Certified trainer specializing in strength training and body shaping. Notable, visible results of clients on the Instagram page." />
+        <Label FontSize="22" FontAttributes="Bold" Text="Emili Nurca" VerticalOptions="End" />
+        <Label Text="Trainer experienced in HIIT training and cardio endurance training. One-to-one trainings are the most beneficial for achieving the goal as quickly as possible." />
+        <Label FontSize="22" FontAttributes="Bold" Text="Maria Rodriguez" VerticalOptions="End" />
+        <Label Text="Trainer dedicated to supporting clients in achieving their weight loss goals. Bonus, clients benefit from a personalized food plan according to each one's goal." />
+        <Label FontSize="22" FontAttributes="Bold" Text="Filip Iordache" VerticalOptions="End" />
+        <Label Text="Fitness trainer with expertise in functional training and personalized nutrition. Personal training, as well as online, are crucial for achieving your goals." />
+    </VerticalStackLayout>
+</ContentPage>

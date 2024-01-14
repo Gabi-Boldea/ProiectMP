@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlatinumGymMAUI.ExerciseEntryPage"
+             Title="My Workouts">
+    <ContentPage.Content xmlns:local="clr-namespace:PlatinumGymMAUI">
+        <StackLayout Margin="20">
+            <Editor Placeholder="Workout Title/ Day"
+                    Text="{Binding Description}" 
+                    HeightRequest="50" >
+                <Editor.Behaviors>
+                    <local:ValidationBehaviour />
+                </Editor.Behaviors>
+            </Editor>
+            <Picker x:Name="GymPicker" Title="Enter Gym Name" />
+            <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Text="Save" 
+                    Clicked="OnSaveButtonClicked"/>
+            <Button Grid.Column="1"
+                    Text="Delete" 
+                    Clicked="OnDeleteButtonClicked"/>
+        </Grid>
+        <ListView x:Name="listView"
+                  Margin="20"  >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Detail="{Binding Description}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+            <Button Grid.Row="2" Grid.Column="0" Text="Delete Exercise" MaximumWidthRequest="200"
+        Clicked="OnDeleteSelectedExerciseButtonClicked" />
+            <Button Grid.Row="2" Grid.Column="1" Text="Add/Choose Exercise" MaximumWidthRequest="200"
+        Clicked="OnChooseButtonClicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="PlatinumGymMAUI.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:PlatinumGymMAUI"
+    Shell.FlyoutBehavior="Disabled"
+    Title="PlatinumGymMAUI">
+
+    <TabBar>
+        <ShellContent
+            Title="PlatynumGym"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            />
+
+        <ShellContent
+            Title="Trainers"
+            ContentTemplate="{DataTemplate local:AboutPage}"
+            />
+
+        <ShellContent
+            Title="My Workouts"
+            ContentTemplate="{DataTemplate local:ListEntryPage}"
+            />
+
+        <ShellContent
+            Title="My Gyms"
+            ContentTemplate="{DataTemplate local:GymEntryPage}"
+            />
+    </TabBar>
+</Shell>

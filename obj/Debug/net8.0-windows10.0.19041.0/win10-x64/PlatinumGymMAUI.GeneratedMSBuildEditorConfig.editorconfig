@@ -1,0 +1,79 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PlatinumGymMAUI
+build_property.ProjectDir = C:\Users\Gabi\Desktop\Proiect MAUI\PlatinumGymMAUI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Gabi/Desktop/Proiect MAUI/PlatinumGymMAUI/AboutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatinumGymMAUI.AboutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AboutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AboutPage.xaml
+
+[C:/Users/Gabi/Desktop/Proiect MAUI/PlatinumGymMAUI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatinumGymMAUI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Gabi/Desktop/Proiect MAUI/PlatinumGymMAUI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatinumGymMAUI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Gabi/Desktop/Proiect MAUI/PlatinumGymMAUI/ExerciseEntryPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatinumGymMAUI.ExerciseEntryPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ExerciseEntryPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ExerciseEntryPage.xaml
+
+[C:/Users/Gabi/Desktop/Proiect MAUI/PlatinumGymMAUI/GymEntryPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatinumGymMAUI.GymEntryPage.xaml
+build_metadata.AdditionalFiles.TargetPath = GymEntryPage.xaml
+build_metadata.AdditionalFiles.RelativePath = GymEntryPage.xaml
+
+[C:/Users/Gabi/Desktop/Proiect MAUI/PlatinumGymMAUI/GymPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatinumGymMAUI.GymPage.xaml
+build_metadata.AdditionalFiles.TargetPath = GymPage.xaml
+build_metadata.AdditionalFiles.RelativePath = GymPage.xaml
+
+[C:/Users/Gabi/Desktop/Proiect MAUI/PlatinumGymMAUI/ListEntryPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatinumGymMAUI.ListEntryPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ListEntryPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ListEntryPage.xaml
+
+[C:/Users/Gabi/Desktop/Proiect MAUI/PlatinumGymMAUI/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatinumGymMAUI.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Gabi/Desktop/Proiect MAUI/PlatinumGymMAUI/ProductPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatinumGymMAUI.ProductPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ProductPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ProductPage.xaml
+
+[C:/Users/Gabi/Desktop/Proiect MAUI/PlatinumGymMAUI/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatinumGymMAUI.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Gabi/Desktop/Proiect MAUI/PlatinumGymMAUI/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PlatinumGymMAUI.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

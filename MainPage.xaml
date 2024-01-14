@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlatinumGymMAUI.MainPage"
+             Title="PlatynumGym" >
+    <ScrollView>
+        <VerticalStackLayout Spacing="10" Margin="10">
+            <HorizontalStackLayout Spacing="10">
+                <Label FontSize="25" FontAttributes="Bold" Text="Our Memberships" VerticalOptions="End" />
+            </HorizontalStackLayout>
+            <Label FontSize="22" FontAttributes="Bold" Text="Basic Membership  -  80 lei" VerticalOptions="End" />
+            <Label Text="Access for one month to all the basic equipment available in all the gyms in the city." />
+            <Label FontSize="22" FontAttributes="Bold" Text="Premium Membership  -  110 lei" VerticalOptions="End" />
+            <Label Text="One month access to all equipment and personalized training. In addition, you benefit from a free session with a well-trained trainer and a protein shake after training." />
+            <Label FontSize="22" FontAttributes="Bold" Text="Anual Membership  -  800 lei" VerticalOptions="End" />
+            <Label Text="Subscription for 12 months, with all benefits included. Additional: access to the sauna and swimming pool, free access for one month to Yoga classes organized by specialized trainers and a food plan structured according to everyone's goals." />
+            <Label FontSize="22" FontAttributes="Bold" Text="Student Membership  -  70 lei" VerticalOptions="End" />
+            <Label Text="Special discount for students with access to flexible hours." />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
